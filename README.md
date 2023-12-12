@@ -2,6 +2,7 @@
 simple &amp; responsive random quotes website 
 
 # Live Demo :
+https://omar-eldeeb98.github.io/Random-Quotes/
 
 
 # Tools :
