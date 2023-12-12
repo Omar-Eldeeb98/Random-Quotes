@@ -1,0 +1,198 @@
+/* !============================== global settings ====================================================== */
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+:root {
+    /* font family */
+    --header-font: 'Titan One', sans-serif;
+    --text-font: 'Open Sans', sans-serif;
+}
+
+/* !============================== global settings ====================================================== */
+
+/* !============================== section stylying ====================================================== */
+
+#quote {
+
+    min-height: 100vh;
+    background-image: url(../assets/images/bg.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+#quote .layer {
+
+    min-height: 100vh;
+    background-color: #000000a4;
+}
+
+#quote .layer .container {
+    min-height: 100vh;
+    padding-bottom: 1.25rem;
+    position: relative;
+
+}
+
+#quote .container h1 {
+    font-family: var(--header-font);
+    margin-bottom: 3.125rem;
+    color: var(--bs-gray-600);
+    font-size: 4.375rem;
+    letter-spacing: .0625rem;
+}
+
+#quote .container h1 i {
+    color: rgb(0, 92, 0);
+}
+
+.qoute_body {
+
+    background-color: #fff;
+    padding: 1.25rem 2.5rem;
+    border-radius: .625rem;
+    position: relative;
+
+
+
+
+
+}
+
+.qoute_body p {
+
+    width: 100% !important;
+    font-family: var(--text-font);
+    font-size: 1.875rem;
+    font-weight: bold;
+    text-align: center;
+    text-transform: capitalize;
+    letter-spacing: .0625rem;
+    margin-bottom: 40px;
+    color: var(--bs-gray-800);
+    padding-top: 20px;
+    height: 300px !important;
+
+
+
+}
+
+.qoute_body h4 {
+    letter-spacing: 1px;
+    text-align: center;
+    color: green;
+    font-weight: bold;
+    font-size: 25px;
+    font-family: var(--header-font);
+    margin-bottom: 2.1875rem;
+    height: 40px;
+    margin-bottom: 50px;
+
+}
+
+small {
+    background-color: red;
+    color: white;
+    font-family: 'Shadows Into Light', cursive;
+    margin-left: 1.25rem;
+    padding: .5rem 1rem;
+    border-top-left-radius: 8px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+
+
+}
+
+.qoute_body button {
+    transition: all 0.5s;
+}
+
+.qoute_body button:hover {
+    padding-inline: 50px;
+}
+
+/* !============================== end section stylying ====================================================== */
+
+
+/* !============================== start media query  ====================================================== */
+
+@media (max-width: 992px) {
+
+    #quote .container h1 {
+        font-size: 50px;
+    }
+
+    #quote .container p {
+        font-size: 30px;
+    }
+
+    #quote .container h4 {
+        font-size: 25px;
+    }
+
+    button {
+        font-size: 18px !important;
+    }
+
+    small {
+        font-size: 18px;
+    }
+
+
+}
+
+@media (max-width: 768px) {
+    #quote .container h1 {
+        font-size: 35px;
+    }
+
+    #quote .container p {
+        font-size: 25px;
+    }
+
+    #quote .container h4 {
+        font-size: 20px;
+    }
+
+    button {
+        font-size: 16px !important;
+    }
+
+    small {
+        font-size: 16px;
+    }
+
+}
+
+@media (max-width: 576px) {
+
+    #quote .container h1 {
+        font-size: 28px;
+    }
+
+    #quote .container p {
+        font-size: 20px;
+    }
+
+    #quote .container h4 {
+        font-size: 18px;
+    }
+
+    button {
+        font-size: 14px !important;
+    }
+
+    small {
+        font-size: 14px;
+    }
+
+}
+
+/* !============================== start media query  ====================================================== */
